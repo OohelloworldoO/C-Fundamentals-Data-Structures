@@ -7,14 +7,15 @@
 | 3/20 |          基本數據類型、常量變量、位運算、表達式          |
 | 3/24 |    開發工具和規格標準、資料型別、迴圈、邏輯運算子(74)    |
 | 3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack |
+| 3/26 |            質數判斷、Function Standard Base、            |
 
-## 教材
+## Reference
 
-|    老師     |                                                                                        |
-| :---------: | :------------------------------------------------------------------------------------: |
-| Feis Studio | [C 語言入門](https://www.youtube.com/playlist?list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx) |
-| Jserv黃敬群 |            [你所不知道的 C 語言](https://hackmd.io/@sysprog/c-programming)             |
-|             |                                                                                        |
+|     老師      |                                                                                             |
+| :-----------: | :-----------------------------------------------------------------------------------------: |
+|  Feis Studio  |   [C 語言入門](https://www.youtube.com/playlist?list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx)    |
+|  Jserv黃敬群  |               [你所不知道的 C 語言](https://hackmd.io/@sysprog/c-programming)               |
+| GeeksforGeeks | [DataStructure for C implementation](https://www.geeksforgeeks.org/c/implement-stack-in-c/) |
 
 # command
 
