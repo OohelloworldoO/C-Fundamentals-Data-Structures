@@ -37,4 +37,4 @@ $$X_{n+1}=(aX_{n} + c) \bmod m$$
 
 ## rand()跟加密`entropy` 資訊安全相關
 
-### 延伸討論 `cross entropy`
+### 延伸討論ML `cross entropy`

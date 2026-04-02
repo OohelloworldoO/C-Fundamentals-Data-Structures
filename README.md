@@ -34,6 +34,7 @@
 |            數學運算            |      <math.h>      |  sqrt(平方根)、ceil(無條件進位)、abs(絕對值)  |
 |         輸入與輸出處理         |     <stdio.h>      | printf(從標準輸出輸出)、scanf(從標準輸入輸入) |
 |           記憶體管理           |     <stdlib.h>     |                                               |
+|                                |      <time.h>      |                                               |
 | 其他跟operating system相關功能 |                    |                                               |
 
 ## ToDoList
