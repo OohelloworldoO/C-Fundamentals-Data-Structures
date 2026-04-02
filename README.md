@@ -8,7 +8,7 @@
 | 3/24 | 開發工具和規格標準、資料型別、迴圈、邏輯運算子(74)       |
 | 3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack |
 | 3/26 | 質數判斷、C Function Standard、math.h 、scope            |
-| 3/30 | scope、random                                            |
+| 3/30 | scope、random、latex(數學公式寫在markdown)               |
 
 ## Reference
 
@@ -19,6 +19,7 @@
 | GeeksforGeeks | [DataStructure for C implementation](https://www.geeksforgeeks.org/c/implement-stack-in-c/)       |
 |   sparanoid   | [文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.md) |
 |    ISO/IEC    | [ISO/IEC 1999(E)](https://www.dii.uchile.cl/~daespino/files/Iso_C_1999_definition.pdf)            |
+|    Cynthia    | [常用 LaTeX 數學符號指令](https://hackmd.io/@CynthiaChuang/Basic-LaTeX-Commands)                  |
 
 ## Command
 
@@ -39,7 +40,7 @@
 
 |           ToDoList           | Done Date |
 | :--------------------------: | :-------: |
-|        C Fundamentals        |           |
+|        C Fundamentals        |   3/20-   |
 |            Jserv             |           |
 | DataStructure implementation |           |
 |   Algorithm implementation   |           |
