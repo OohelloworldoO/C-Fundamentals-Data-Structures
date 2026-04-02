@@ -68,12 +68,14 @@ Focus:
 
 ## ToDoList
 
-|           ToDoList           | Done Date |
-| :--------------------------: | :-------: |
-|        C Fundamentals        |   3/20-   |
-|            Jserv             |           |
-| DataStructure implementation |           |
-|   Algorithm implementation   |           |
-|           Leetcode           |           |
-|                              |           |
-|                              |           |
+| ToDoList                        | Date  |     |
+| :------------------------------ | :---: | --- |
+| 1. C Fundamentals               | 3/20- |     |
+| 2. Jserv                        |       |     |
+| 3. DataStructure implementation |       |     |
+| 4. Algorithm implementation     |       |     |
+| 5. Leetcode                     |       |     |
+| 6. mini shell                   |       |     |
+| 7. memory allocator             |       |     |
+| 8. file parser                  |       |     |
+| 9. my own operating system      |       |     |
