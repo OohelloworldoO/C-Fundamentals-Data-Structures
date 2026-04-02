@@ -3,7 +3,7 @@
 ## Random為何為假隨機亂數?
 
 **rand() is devoid of entropy, and is thus a mediocre pseudo-random number**  
-`rand()` 是「假隨機（pseudo-random）」因為它完全由演算法決定，不是來自真正的隨機來源。  
+`rand()` 是「假隨機（pseudo-random）」因為它完全由演算法決定，不是來自真正的隨機來源  
 `rand()` 的本質是：
 
 `用一個數學公式，從一個初始值（seed）一步一步算出下一個數字`
@@ -41,7 +41,7 @@ C 的 #include <...> 本質上是把某個模組的宣告引入進來。
 `stdlib.h` 並不是**記憶體專用**標頭，而是**General Utilities** 通用工具庫  
 `string.h` 也不只是「字串」  
 `stdio.h` 也不只是 `printf` 和 `scanf`  
-一個 header 裡面可以同時放多種彼此相關、但不一定完全同類型的工具。
+一個 header 裡面可以同時放多種彼此相關、但不一定完全同類型的工具
 
 - `stdio.h` 透過 `stream(資料流)` 做格式化或非格式化 I/O
 - `string.h` 一段連續位元組資料的操作，包含字串、記憶體區塊處理
