@@ -92,3 +92,5 @@ bsearch
 ## rand()跟加密`entropy` 資訊安全相關
 
 ### 延伸討論ML `cross entropy`
+
+## 為何自定義的function都要放在main()之後?
