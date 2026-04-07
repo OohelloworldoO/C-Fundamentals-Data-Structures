@@ -8,8 +8,8 @@ void f(void)
 */
 
 /*
-void為沒有指定 return 型別, int為指定return type為整數
-例如 int main(){...} return type為0(false) or 其他數字(true)
+void 為不回傳任何值 return 型別, int 為指定 return type 為整數
+例如 int main(){...} return type 為0(false) or 其他數字(true)
 */
 
 int f(int);
