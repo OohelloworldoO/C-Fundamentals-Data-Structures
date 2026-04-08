@@ -39,6 +39,7 @@ Focus:
 | 3/26 | 質數判斷、C Function Standard、math.h 、scope            |
 | 4/2  | scope、random implementations、latex(數學公式markdown)   |
 | 4/7  | function recursion                                       |
+| 4/8  |                                                          |
 
 ## Reference
 
