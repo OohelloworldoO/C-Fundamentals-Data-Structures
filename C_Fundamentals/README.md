@@ -92,3 +92,5 @@ bsearch
 ## rand()跟加密`entropy` 資訊安全相關
 
 ### 延伸討論ML `cross entropy`
+
+## 在記憶體中，一個 Array 會使用一段連續的記憶體空間來存放，關於 Internal / External 的存放問題
