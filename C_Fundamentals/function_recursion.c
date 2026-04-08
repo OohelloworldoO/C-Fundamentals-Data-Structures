@@ -9,7 +9,7 @@ void f(void)
 
 /*
 void 為不回傳任何值 return 型別, int 為指定 return type 為整數
-例如 int main(){...} return type 為0(false) or 其他數字(true)
+例如 int main(){...} return type 為0(true) or 其他數字(false)
 */
 
 int f(int);
