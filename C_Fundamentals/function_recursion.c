@@ -8,7 +8,7 @@ void f(void)
 */
 
 /*
-void 預設為回傳:"return "型別, int 為指定 return type 為整數
+void 用於明確宣告函數「不回傳任何值」, int 為指定 return type 為整數
 例如 int main(){...} return type 為0(true) or 其他數字(false)
 */
 
