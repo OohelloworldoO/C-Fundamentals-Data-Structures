@@ -20,26 +20,52 @@ Focus:
 
 ## Structure
 
-├── Algorithm/  
-├── C_Fundamentals/  
-├── DataStructure/  
-│ ├── images/  
-│ ├── stack/  
-│ ├── queue/  
-│ ├── linked_list/  
-├── Leetcode/
+- C_Fundamentals/
+  - pointer/
+  - memory_management/ (malloc / free)
+  - recursion/
+  - file_io/
+  - memory_model/
+
+- DataStructure/
+  - array/ dynamic array
+  - linked_list/
+  - stack/
+  - queue/
+  - deque/
+  - hash_table/
+  - heap/
+  - binary_search_tree/
+  - graph/
+  - union_find/
+
+- Algorithm/
+  - recursion/
+  - searching/
+  - sorting/ (bubble sort、 selection sort、 insertion sort、 merge sort、 quick sort)
+  - binary search
+  - divide_and_conquer/
+  - greedy/
+  - backtracking/
+  - dynamic_programming/
+  - graph_algorithm/
+  - string_algorithm/
+  - bit_manipulation/
+
+- Leetcode/
 
 ## 進度
 
-| 日期 | 進度                                                     |
-| :--: | :------------------------------------------------------- |
-| 3/20 | 基本數據類型、常量變量、位運算、表達式                   |
-| 3/24 | 開發工具和規格標準、資料型別、迴圈、邏輯運算子           |
-| 3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack |
-| 3/26 | 質數判斷、C Function Standard、math.h 、scope            |
-| 4/2  | scope、random implementations、latex(數學公式markdown)   |
-| 4/7  | function recursion                                       |
-| 4/8  | function recursion implement、array、bubble sort         |
+|   日期    | 進度                                                     |
+| :-------: | :------------------------------------------------------- |
+| 2026/3/20 | 基本數據類型、常量變量、位運算、表達式                   |
+| 2026/3/24 | 開發工具和規格標準、資料型別、迴圈、邏輯運算子           |
+| 2026/3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack |
+| 2026/3/26 | 質數判斷、C Function Standard、math.h 、scope            |
+| 2026/4/2  | scope、random implementations、latex(數學公式markdown)   |
+| 2026/4/7  | function recursion                                       |
+| 2026/4/8  | function recursion implement、array、bubble sort         |
+| 2026/4/14 |                                                          |
 
 ## Reference
 
