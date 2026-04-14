@@ -120,7 +120,7 @@ int binary_search(int arr[], int n, int target) {
 - mid 計算錯誤導致 overflow
 - 邊界更新錯誤導致 infinite loop
 
-## 12. Insight（重要觀點）
+## 12. Insight
 
 Binary Search 的本質不是「搜尋數值」，而是：對「單調函數（monotonic function）」進行搜尋  
 可應用於：
