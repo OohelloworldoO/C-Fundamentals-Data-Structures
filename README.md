@@ -65,7 +65,7 @@ Focus:
 | 2026/4/2  | scope、random implementations、latex(數學公式markdown)   |
 | 2026/4/7  | function recursion                                       |
 | 2026/4/8  | function recursion implement、array、bubble sort         |
-| 2026/4/14 |                                                          |
+| 2026/4/14 | strcmp、strncmp、strcpy                                  |
 
 ## Reference
 

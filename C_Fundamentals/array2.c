@@ -12,11 +12,6 @@ int main(void)
         scanf("%d", &n[i - 1]);
     }
 
-    for (i = 1; i <= 5; i++)
-    {
-        printf("%d\n", n[i - 1]);
-    }
-
     while (1)
     {
         printf("Q: ");
