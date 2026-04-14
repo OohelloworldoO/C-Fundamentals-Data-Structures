@@ -69,15 +69,17 @@ Focus:
 
 ## Reference
 
-|    Author     |                                                                                                   |
-| :-----------: | :------------------------------------------------------------------------------------------------ |
-|  Feis Studio  | [C 語言入門](https://www.youtube.com/playlist?list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx)            |
-| Jserv 黃敬群  | [你所不知道的 C 語言](https://hackmd.io/@sysprog/c-programming)                                   |
-| GeeksforGeeks | [DataStructure for C implementation](https://www.geeksforgeeks.org/c/implement-stack-in-c/)       |
-|   sparanoid   | [文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.md) |
-|    ISO/IEC    | [ISO/IEC 1999(E)](https://www.dii.uchile.cl/~daespino/files/Iso_C_1999_definition.pdf)            |
-|    Cynthia    | [常用 LaTeX 數學符號指令](https://hackmd.io/@CynthiaChuang/Basic-LaTeX-Commands)                  |
-| CodeCrafters  | [Build your own insert-technology](https://github.com/codecrafters-io/build-your-own-x)           |
+|    Author     |                                                                                                                                              |
+| :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------- |
+|  Feis Studio  | [C 語言入門](https://www.youtube.com/playlist?list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx)                                                       |
+| Jserv 黃敬群  | [你所不知道的 C 語言](https://hackmd.io/@sysprog/c-programming)                                                                              |
+| GeeksforGeeks | [DataStructure for C implementation](https://www.geeksforgeeks.org/c/implement-stack-in-c/)                                                  |
+|   sparanoid   | [文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.md)                                            |
+|    ISO/IEC    | [ISO/IEC 1999(E)](https://www.dii.uchile.cl/~daespino/files/Iso_C_1999_definition.pdf)                                                       |
+|    Cynthia    | [常用 LaTeX 數學符號指令](https://hackmd.io/@CynthiaChuang/Basic-LaTeX-Commands)                                                             |
+| CodeCrafters  | [Build your own insert-technology](https://github.com/codecrafters-io/build-your-own-x)                                                      |
+|               | [Learn DSA in C: Master Data Structures and Algorithms Using C](https://www.geeksforgeeks.org/c/learn-dsa-in-c/)                             |
+|               | [Data structures and algorithms study cheatsheets for coding interviews](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/) |
 
 ## Command
 
@@ -97,14 +99,14 @@ Focus:
 
 ## ToDoList
 
-| ToDoList                        | Date  |     |
-| :------------------------------ | :---: | --- |
-| 1. C Fundamentals               | 3/20- |     |
-| 2. Jserv                        |       |     |
-| 3. DataStructure implementation |       |     |
-| 4. Algorithm implementation     |       |     |
-| 5. Leetcode                     |       |     |
-| 6. mini shell                   |       |     |
-| 7. memory allocator             |       |     |
-| 8. file parser                  |       |     |
-| 9. my own operating system      |       |     |
+| ToDoList                                                            | Date  |     |
+| :------------------------------------------------------------------ | :---: | --- |
+| 1. C Fundamentals                                                   | 3/20- |     |
+| 2. Jserv                                                            |       |     |
+| 3. DataStructure implementation                                     |       |     |
+| 4. Algorithm implementation                                         |       |     |
+| 5. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |       |     |
+| 6. mini shell                                                       |       |     |
+| 7. memory allocator                                                 |       |     |
+| 8. file parser                                                      |       |     |
+| 9. my own operating system                                          |       |     |
