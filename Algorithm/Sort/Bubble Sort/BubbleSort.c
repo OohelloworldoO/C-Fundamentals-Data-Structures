@@ -1,26 +1,46 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+void bubble_sort(int v[], int n)
 {
-    int v[5], i, j;
-    for(i = 0; i < 5; i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        scanf("%d", &v[i]);
-    }
-    for(i = 0; i < 4; i++)
-    {
-        for(j = 0; j < 4 - i; j++)
+        int swapped = 0;
+
+        for (int j = 0; j < n - 1 - i; j++)
         {
-            if(v[j] > v[j+1])
-            {
+            if (v[j] > v[j + 1]) {
                 int t = v[j];
                 v[j] = v[j + 1];
                 v[j + 1] = t;
+                swapped = 1;
             }
         }
+
+        if (!swapped) {
+            break;
+        }
     }
-    for(i = 0; i < 5; i++)
-    {
+}
+
+void print_array(int v[], int n)
+{
+    for (int i = 0; i < n; i++) {
         printf("%d ", v[i]);
     }
+    printf("\n");
+}
+
+int main()
+{
+    int v[5];
+
+    for (int i = 0; i < 5; i++)
+    {
+        scanf("%d", &v[i]);
+    }
+
+    bubble_sort(v, 5);
+    print_array(v, 5);
+
     return 0;
 }
