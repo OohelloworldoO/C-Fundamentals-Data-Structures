@@ -66,7 +66,7 @@ Focus:
 | 2026/4/7  | function recursion                                       |
 | 2026/4/8  | function recursion implement、array、bubble sort         |
 | 2026/4/14 | strcmp、strncmp、strcpy                                  |
-| 2026/4/15 | bubble sort                                              |
+| 2026/4/15 | bubble sort 、關於陣列的記憶體配置                       |
 
 ## Reference
 
