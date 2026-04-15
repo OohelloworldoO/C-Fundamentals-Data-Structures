@@ -99,14 +99,14 @@ Focus:
 
 ## ToDoList
 
-| ToDoList                                                            | Date  |     |
-| :------------------------------------------------------------------ | :---: | --- |
-| 1. C Fundamentals                                                   | 3/20- |     |
-| 2. Jserv                                                            |       |     |
-| 3. DataStructure implementation                                     |       |     |
-| 4. Algorithm implementation                                         |       |     |
-| 5. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |       |     |
-| 6. mini shell                                                       |       |     |
-| 7. memory allocator                                                 |       |     |
-| 8. file parser                                                      |       |     |
-| 9. my own operating system                                          |       |     |
+| ToDoList                                                            | Date  |
+| :------------------------------------------------------------------ | :---: |
+| 1. C Fundamentals                                                   | 3/20- |
+| 2. DataStructure implementation                                     |       |
+| 3. Algorithm implementation                                         |       |
+| 4. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |       |
+| 5. Jserv                                                            |       |
+| 6. mini shell                                                       |       |
+| 7. memory allocator                                                 |       |
+| 8. file parser                                                      |       |
+| 9. my own operating system                                          |       |

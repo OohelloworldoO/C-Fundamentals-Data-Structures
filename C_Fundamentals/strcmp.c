@@ -4,12 +4,13 @@
 int main()
 {
     char str1[20], str2[20], str3[20];
+    scanf("%19s %19s", &str1, &str2);
     if(strcmp(str1, str2) == 0)
     {
-        printf("相同\n");
+        printf("yes\n");
     }
     else{
-        printf("不相同\n");
+        printf("no\n");
     }
     return 0;
 }
