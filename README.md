@@ -66,6 +66,7 @@ Focus:
 | 2026/4/7  | function recursion                                       |
 | 2026/4/8  | function recursion implement、array、bubble sort         |
 | 2026/4/14 | strcmp、strncmp、strcpy                                  |
+| 2026/4/15 | bubble sort                                              |
 
 ## Reference
 
@@ -106,7 +107,7 @@ Focus:
 | 3. Algorithm implementation                                         |       |
 | 4. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |       |
 | 5. Jserv                                                            |       |
-| 6. mini shell                                                       |       |
-| 7. memory allocator                                                 |       |
-| 8. file parser                                                      |       |
+| 6. file parser                                                      |       |
+| 7. mini shell                                                       |       |
+| 8. memory allocator                                                 |       |
 | 9. my own operating system                                          |       |
