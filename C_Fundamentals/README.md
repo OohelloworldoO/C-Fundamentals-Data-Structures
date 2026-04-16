@@ -33,7 +33,7 @@ $$X_{n+1}=(aX_{n} + c) \bmod m$$
 
 `seed = 可控的隨機性`
 
-## rand()與記憶體管理函式為何都放在 stdilb.h ?  
+## rand()與記憶體管理函式為何都放在 stdilb.h ?
 
 C 的 #include <...> 本質上是把某個模組的宣告引入進來。  
 每個 header 代表的是一組相關功能的介面，而不是某個唯一概念。
@@ -94,3 +94,21 @@ bsearch
 ### 延伸討論ML `cross entropy`
 
 ## 在記憶體中，一個 Array 會使用一段連續的記憶體空間來存放，關於 Internal / External 的存放問題
+
+## 關於 Pointer
+
+Pointer 是 C 語言的主要特性，是種儲存「記憶體位址」的資料型別  
+指標變數宣告語法: `資料型別 *變數名稱;`  
+e.g. `int *countAddr`
+
+變數內存放的是一個這種「資料型別」值的「記憶體位址」  
+指標可以解決:
+
+- 在被呼叫的function中修改引數值
+- 直接複製array、string
+- 動態改變array長度
+
+相對地我們可以利用間接運算子 `*` 從記憶體位址取得開頭位於該記憶體位址的變數
+
+需要注意 `printf("%d", PointerJ);` 這是錯的  
+應該要使用 `printf("%p\n", PointerJ);` %p 是 Pointer專用的格式符號

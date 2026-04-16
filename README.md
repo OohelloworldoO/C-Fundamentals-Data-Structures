@@ -56,18 +56,21 @@ Focus:
 
 ## 進度
 
-|   日期    | 進度                                                     |
-| :-------: | :------------------------------------------------------- |
-| 2026/3/20 | 基本數據類型、常量變量、位運算、表達式                   |
-| 2026/3/24 | 開發工具和規格標準、資料型別、迴圈、邏輯運算子           |
-| 2026/3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack |
-| 2026/3/26 | 質數判斷、C Function Standard、math.h 、scope            |
-| 2026/4/2  | scope、random implementations、latex(數學公式markdown)   |
-| 2026/4/7  | function recursion                                       |
-| 2026/4/8  | function recursion implement、array、bubble sort         |
-| 2026/4/14 | strcmp、strncmp、strcpy                                  |
-| 2026/4/15 | bubble sort 、關於陣列的記憶體配置                       |
-| 2026/4/16 | matrix(by two array)                                     |
+|   日期    | 進度                                                                       |
+| :-------: | :------------------------------------------------------------------------- |
+| 2026/3/20 | 基本數據類型、常量變量、位運算、表達式                                     |
+| 2026/3/24 | 開發工具和規格標準、資料型別、迴圈、邏輯運算子                             |
+| 2026/3/25 | do-while迴圈、韓信點兵(chinese remainder theorem)、stack                   |
+| 2026/3/26 | 質數判斷、C Function Standard、math.h 、scope                              |
+| 2026/4/2  | scope、random implementations、latex(數學公式markdown)                     |
+| 2026/4/7  | function recursion                                                         |
+| 2026/4/8  | function recursion implement、array、bubble sort                           |
+| 2026/4/14 | strcmp、strncmp、strcpy                                                    |
+| 2026/4/15 | bubble sort 、關於陣列的記憶體配置                                         |
+| 2026/4/16 | matrix(by two array)、pointer(記憶體位址 int *p 、 記憶體位址的值 *p 差別) |
+| 2026/4/17 | pointer + array、malloc(free、segmentation fault)、sizeof (暫定)           |
+| 2026/4/18 | struct 、stack (暫定)                                                      |
+| 2026/4/19 | struct(malloc版) (暫定)                                                    |
 
 ## Reference
 
