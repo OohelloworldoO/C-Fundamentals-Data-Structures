@@ -111,3 +111,43 @@ e.g. `int *countAddr`
 
 需要注意 `printf("%d", PointerJ);` 這是錯的  
 應該要使用 `printf("%p\n", PointerJ);` %p 是 Pointer專用的格式符號
+
+當 `&` 用在指標時念法為 `Address of`  
+在這邊 `&` 是取得記憶體位址再使用 `*n = *n + 1 ` 去修改記憶體位址的值
+
+```
+#include<stdio.h>
+void addone();
+
+int main()
+{
+    int a = 3;
+    addone(&a);
+    printf("%d", a);
+    return 0;
+}
+
+void addone(int *n)
+{
+    *n = *n + 1;
+}
+```
+
+這邊依然也是取得記憶體位址， `scanf()` 裡面的 function 則是對記憶體位址的值做 `*ptr = 輸入值`
+
+```
+#include<stdio.h>
+int main()
+{
+    int ans = 4, guess;
+    do
+    {
+        printf("plz enter ur guess\n");
+        scanf("%d", &guess);
+        if(guess > ans) printf("too large");
+        else if(guess <ans) printf("too small");
+        else printf("correct");
+    }while(guess != ans);
+    return 0;
+}
+```
