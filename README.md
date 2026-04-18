@@ -69,7 +69,7 @@ Focus:
 | 2026/4/15 | bubble sort 、關於陣列的記憶體配置                                         |
 | 2026/4/16 | matrix(by two array)、pointer(記憶體位址 int *p 、 記憶體位址的值 *p 差別) |
 | 2026/4/17 | pointer + array、malloc(free、segmentation fault、sizeof)                  |
-| 2026/4/18 | struct 、stack (暫定)                                                      |
+| 2026/4/18 | swap、malloc、struct 、stack (暫定)                                        |
 | 2026/4/19 | struct(malloc版) (暫定)                                                    |
 
 ## Reference
