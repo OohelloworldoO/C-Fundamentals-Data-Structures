@@ -13,13 +13,13 @@ typedef struct Point2
 typedef struct Point3
 {
     int c, d;
-} Point3;
+};
 
 int main()
 {
     Point p;
     Point2 pp;
-    Point3 ppp;
+    struct Point3 ppp;
     p.x = 3;
     p.y = 5;
     pp.a;
