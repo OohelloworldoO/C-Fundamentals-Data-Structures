@@ -52,6 +52,13 @@ Focus:
   - string_algorithm/
   - bit_manipulation/
 
+## README 重點
+
+| 類型           | 重點          |
+| -------------- | ------------- |
+| Data Structure | 設計 + 操作   |
+| Algorithm      | 流程 + 複雜度 |
+
 - Leetcode/
 
 ## 進度
