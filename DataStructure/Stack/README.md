@@ -2,6 +2,8 @@
 
 ## 1. Definition（定義）
 
+**First In Last Out**
+
 Stack 是一種線性資料結構（linear data structure），
 遵循 LIFO（Last In, First Out）原則。
 
@@ -132,6 +134,6 @@ Stack 是一種線性資料結構（linear data structure），
 
 Stack 的本質是：
 
-`限制操作位置（只允許在 top 操作`
+`限制操作位置（只允許在 top 操作)`
 
 這種限制使得某些問題（如括號匹配、DFS）可以被有效解決。

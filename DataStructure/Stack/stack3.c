@@ -28,6 +28,7 @@ int main()
     for(int i = 0; i < size_of_malloc; i++)
     {
         int j;
+        printf("plz input: \n");
         scanf("%d", &j);
         push(&s, j);
         printf("top = %d\n", peek(&s));
