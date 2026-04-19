@@ -51,6 +51,7 @@ Focus:
   - graph_algorithm/
   - string_algorithm/
   - bit_manipulation/
+- Leetcode/
 
 ## README 重點
 
@@ -58,8 +59,6 @@ Focus:
 | -------------- | ------------- |
 | Data Structure | 設計 + 操作   |
 | Algorithm      | 流程 + 複雜度 |
-
-- Leetcode/
 
 ## 進度
 
