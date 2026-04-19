@@ -1,93 +1,93 @@
+# 📌 Stack（堆疊）
+
 ## 1. Definition
 
-Stack 是一種 LIFO（Last In First Out）的資料結構。
+Stack 是一種 LIFO（Last In First Out）的線性資料結構。
 
-最後加入的元素會最先被取出。
+元素只能從頂端（top）進行插入與刪除。
 
----
-
-## 2. Use Case
-
-- 表達式計算（Expression Evaluation）
-- 函式呼叫（Call Stack）
-- DFS（Depth First Search）
-- Undo / Redo 系統
+![stack](./images/stack-push-pop.png)
 
 ---
 
-## 3. Core Idea
+## 2. Core Idea
 
-Stack 使用一個陣列搭配 `top` 指標：
+Stack 的本質：
 
-- push：top +1，寫入元素
-- pop：讀取元素，top -1
-- peek：查看頂端元素
+> 限制操作位置（只允許在 top 操作）
 
 ---
 
-## 4. Data Structure Design
+## 3. Operations
 
-```c
-typedef struct {
-    int *arr;
-    int top;
-    int capacity;
-} Stack;
-```
+- push(x) → 加入元素
+- pop() → 移除頂端元素
+- peek() → 查看頂端元素
+- isEmpty() → 是否為空
+- isFull() → 是否已滿（array）
 
-| 成員     | 說明                  |
-| -------- | --------------------- |
-| arr      | 指向儲存元素的記憶體  |
-| top      | 當前 stack 頂端 index |
-| capacity | stack 最大容量        |
+---
 
-## 5. State Representation
+## 4. Implementation Types
 
-| 成員     | 說明                  |
-| -------- | --------------------- |
-| arr      | 指向儲存元素的記憶體  |
-| top      | 當前 stack 頂端 index |
-| capacity | stack 最大容量        |
+### (1) Array-based
 
-## 6. Operations
+- 使用連續記憶體
+- 使用 index（top）控制
 
-```
-void push(Stack *s, int value)
-{
-    if (isFull(s)) {
-        printf("Stack Overflow\n");
-        return;
-    }
+優點：
 
-    s->arr[++s->top] = value;
-}
-```
+- O(1)
+- cache friendly
 
-```
-int pop(Stack *s)
-{
-    if (isEmpty(s)) {
-        printf("Stack Underflow\n");
-        return -1;
-    }
+缺點：
 
-    return s->arr[s->top--];
-}
-```
+- 固定大小（overflow）
 
-```
-int peek(Stack *s)
-{
-    if (isEmpty(s)) {
-        printf("Stack is empty\n");
-        return -1;
-    }
+---
 
-    return s->arr[s->top];
-}
-```
+### (2) Dynamic Array（malloc）
 
-## 7. Complexity Analysis
+- 使用 heap 記憶體
+- 可動態配置
+
+優點：
+
+- 彈性
+
+缺點：
+
+- 需要手動管理記憶體（free）
+
+---
+
+### (3) Linked List
+
+- 每個節點指向下一個
+- top 指向 head
+
+優點：
+
+- 無容量限制
+
+缺點：
+
+- pointer 操作複雜
+- 記憶體分散
+
+---
+
+## 5. State Representation（Array）
+
+| top | 狀態       |
+| --- | ---------- |
+| -1  | 空         |
+| 0   | 1 個元素   |
+| n   | n+1 個元素 |
+
+---
+
+## 6. Complexity
 
 | Operation | Time |
 | --------- | ---- |
@@ -95,16 +95,49 @@ int peek(Stack *s)
 | pop       | O(1) |
 | peek      | O(1) |
 
-## 8. Edge Cases
+Space：O(n)
 
+---
+
+## 7. Edge Cases
+
+- 單一元素
+- 空 stack
 - Stack Overflow（容量已滿）
 - Stack Underflow（空 stack）
-- 多次 pop
-- 初始化容量為 0
 
-## 10. Insight
+---
 
-- Stack 的本質是「限制操作的 array」
-- `top` 是核心控制變數
-- pointer + malloc 讓 stack 可以動態擴展
-- `arr[i] == *(arr + i)`（pointer 與 array 的本質）
+## 8. Common Mistakes
+
+- 忘記檢查 empty
+- top 更新錯誤
+- malloc 沒 free
+- index 越界
+
+---
+
+## 9. Use Cases
+
+- Function call stack
+- Expression evaluation
+- DFS
+- Undo / Redo
+
+---
+
+## 10. Implementation
+
+👉 See:
+
+- array.md
+- dynamic_array.md
+- linked_list.md
+
+---
+
+## 11. Insight
+
+- Stack = array + restriction
+- top 是唯一狀態控制點
+- pointer 讓 stack 可以動態化
