@@ -22,7 +22,7 @@ typedef struct
 } array;
 
 void initialize(array *a, int size);
-//int binary_search(int arr[], int n, int target);
+int binary_search(int arr[], int target);
 void bubble_sort(array *a, int size);
 void push(array *a, int value);
 
@@ -31,30 +31,40 @@ int main(void)
     array a; // 引用 array 結構命名為 a
     int size_of_malloc; // malloc申請記憶體大小
     int target;
+
     printf("please input ur array size: \n");
+
     scanf("%d", &size_of_malloc);
     initialize(&a, size_of_malloc);
+
     printf("please input ur array: \n");
+
     for(int i = 0; i < size_of_malloc; i++)
     {
         int j; // j 是 input = array 陣列內的元素
         scanf("%d", &j);
         push(&a, j);
     }
+
     for(int i = 0; i < size_of_malloc; i++)
     {
         printf("%d ", a.arr[i]);
     }
+
     printf("\n");
     printf("Bubble sort: \n");
+
     bubble_sort(&a, size_of_malloc);
+
     for(int i = 0; i < size_of_malloc; i++)
     {
         printf("%d ", a.arr[i]);
     }
+
     printf("\n");
     printf("please input ur target number: \n");
     scanf("%d", &target);
+    binary_search(&a, target);
     free(a.arr);
     return 0;
 }
@@ -88,7 +98,7 @@ void bubble_sort(array *a, int size)
     }
 }
 
-int binary_search(int arr[], int n, int target)
+int binary_search(int arr[], int target)
 {
-
+    
 }
