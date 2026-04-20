@@ -143,8 +143,8 @@ Focus:
 | ToDoList                                                            |        Date         |
 | :------------------------------------------------------------------ | :-----------------: |
 | 1. C Fundamentals                                                   | 2026/3/20-2026/4/19 |
-| 2. DataStructure implementation                                     |                     |
-| 3. Algorithm implementation                                         |                     |
+| 2. DataStructure implementation                                     |     2026/4/19-      |
+| 3. Algorithm implementation                                         |     2026/4/20-      |
 | 4. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |                     |
 | 5. Jserv                                                            |                     |
 | 6. file parser                                                      |                     |
