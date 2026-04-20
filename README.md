@@ -105,7 +105,7 @@ Focus:
 | 2026/4/17 | pointer + array、malloc(free、segmentation fault、sizeof)                  |
 | 2026/4/18 | swap、struct                                                               |
 | 2026/4/19 | struct、malloc、stack、queue                                               |
-| 2026/4/20 | binary search、                                                            |
+| 2026/4/20 | binary search、linear search、queue                                        |
 
 ## Reference
 
