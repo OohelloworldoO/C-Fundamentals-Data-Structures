@@ -17,8 +17,8 @@ target 為目標數字
 
 typedef struct
 {
-    int *arr; // 動態陣列起始位址
-    int *top; // 頂端的指針 用來記錄 array 內有沒有元素，還有用來檢查有沒有overflow
+    int *arr; // 動態陣列起始位址 (pointer)
+    int top; // 用來記錄 array 內有沒有元素，還有用來檢查有沒有overflow
 } array;
 
 void initialize(array *a, int size);
@@ -42,7 +42,7 @@ int main(void)
     }
     for(int i = 0; i < size_of_malloc; i++)
     {
-        printf("%d", a->*arr[i]);
+        printf("%d", a.arr[i]);
     }
     return 0;
 }
