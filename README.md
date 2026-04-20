@@ -40,17 +40,45 @@ Focus:
   - union_find/
 
 - Algorithm/
-  - recursion/
-  - searching/
-  - sorting/ (bubble sort、 selection sort、 insertion sort、 merge sort、 quick sort)
-  - binary search
-  - divide_and_conquer/
-  - greedy/
-  - backtracking/
-  - dynamic_programming/
-  - graph_algorithm/
-  - string_algorithm/
-  - bit_manipulation/
+  - 0_foundation/
+    - binary_search/
+    - linear_search/
+
+  - 1_sorting/
+    - bubble_sort/
+    - selection_sort/
+    - insertion_sort/
+    - merge_sort/
+    - quick_sort/
+
+  - 2_recursion_divide_and_conquer/
+    - recursion_basics/
+    - binary_search_recursive/
+    - merge_sort/
+    - quick_sort/
+
+  - 3_core_patterns/
+    - two_pointers/
+    - sliding_window/
+    - prefix_sum/
+
+  - 4_tree_graph_basics/
+    - dfs/
+    - bfs/
+
+  - 5_data_structure_related/
+    - heap/
+    - union_find/
+
+  - 6_advanced_topics/
+    - greedy/
+    - backtracking/
+    - dynamic_programming/
+
+  - 7_special_topics/
+    - string_algorithm/
+    - bit_manipulation/
+
 - Leetcode/
 
 ## README 重點
@@ -77,6 +105,7 @@ Focus:
 | 2026/4/17 | pointer + array、malloc(free、segmentation fault、sizeof)                  |
 | 2026/4/18 | swap、struct                                                               |
 | 2026/4/19 | struct、malloc、stack、queue                                               |
+| 2026/4/20 | binary search、                                                            |
 
 ## Reference
 
