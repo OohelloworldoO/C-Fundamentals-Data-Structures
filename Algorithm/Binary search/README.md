@@ -8,6 +8,8 @@ Binary Search 是一種在「已排序資料（sorted array）」中，
 核心概念：
 每次比較中間值（mid），將問題規模縮小一半。
 
+![Binary search](../images/Binary%20search.png)
+
 ---
 
 ## 2. When to Use（使用時機）
