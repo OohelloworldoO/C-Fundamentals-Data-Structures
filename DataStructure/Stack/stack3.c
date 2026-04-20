@@ -15,9 +15,9 @@ bool isFull(stack *s);
 bool isEmpty(stack *s);
 int pop(stack *s);
 int peek(stack *s);
-void destory(stack *s);
+void destroy(stack *s);
 
-int main()
+int main(void)
 {
     stack s;
     int size_of_malloc;
@@ -37,7 +37,7 @@ int main()
     printf("pop = %d\n", pop(&s));
     printf("top = %d\n", peek(&s));
 
-    destory(&s);
+    destroy(&s);
     return 0;
     
 }
@@ -64,7 +64,7 @@ void push(stack *s, int value)
     if(isFull(s))
     {
         printf("stack overflow\n");
-        return -1;
+        return;
     }
     s->top++;
     s->arr[s->top] = value;
@@ -92,7 +92,7 @@ int peek(stack *s)
     return s->arr[s->top];
 }
 
-void destory(stack *s)
+void destroy(stack *s)
 {
     free(s->arr);
     s->arr = NULL; // 避免誤用已經釋放掉的 pointer
