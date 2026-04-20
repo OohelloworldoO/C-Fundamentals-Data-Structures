@@ -130,3 +130,7 @@ Binary Search 的本質不是「搜尋數值」，而是：對「單調函數（
 - optimization 問題
 - answer space search
 - threshold decision 問題
+
+## Mistake/Misunderstand
+
+`[left, right)` 意思是包含 left 但不含 right
