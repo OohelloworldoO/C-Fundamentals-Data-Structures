@@ -22,8 +22,8 @@ typedef struct
 } array;
 
 void initialize(array *a, int size);
-int binary_search(int arr[], int n, int target);
-int sort(int arr[]);
+//int binary_search(int arr[], int n, int target);
+int bubble_sort(int arr[], int size);
 void push(array *a, int value);
 
 int main(void)
@@ -42,8 +42,9 @@ int main(void)
     }
     for(int i = 0; i < size_of_malloc; i++)
     {
-        printf("%d", a.arr[i]);
+        printf("%d ", a.arr[i]);
     }
+    bubble_sort(&a, size_of_malloc);
     return 0;
 }
 
@@ -59,12 +60,27 @@ void push(array *a, int value)
     a->arr[a->top] = value;
 }
 
-int sort(int arr[])
+int bubble_sort(int arr[], int size)
 {
-    
+    int temp;
+    for(int i = 0; i < size - 1; i++)
+    {
+        for(int j = i; j < size - 1; j++)
+        {
+            if(j = size) break;
+            else if(arr[j] > arr[j+1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
 }
 
+/*
 int binary_search(int arr[], int n, int target)
 {
 
 }
+*/
