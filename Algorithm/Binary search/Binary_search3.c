@@ -22,7 +22,7 @@ typedef struct
 } array;
 
 void initialize(array *a, int size);
-int binary_search(int arr[], int target);
+int binary_search(array *a, int target, int size);
 void bubble_sort(array *a, int size);
 void push(array *a, int value);
 
@@ -64,7 +64,15 @@ int main(void)
     printf("\n");
     printf("please input ur target number: \n");
     scanf("%d", &target);
-    binary_search(&a, target);
+    int result = binary_search(&a, target, size_of_malloc);
+    if(result != -1)
+    {
+        printf("Found at index %d\n", result);
+    }
+    else
+    {
+        printf("Not found");
+    }
     free(a.arr);
     return 0;
 }
@@ -98,7 +106,25 @@ void bubble_sort(array *a, int size)
     }
 }
 
-int binary_search(int arr[], int target)
+int binary_search(array *a, int target, int size)
 {
-    
+    int left = 0, right = size - 1;
+
+    while(left <= right)
+    {
+        int mid = left + (right - left) / 2;
+        if(a->arr[mid] == target)
+        {
+            return mid;
+        }
+        else if(a->arr[mid] < target)
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid - 1;
+        }
+    }
+    return -1;
 }
