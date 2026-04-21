@@ -19,6 +19,7 @@ typedef struct
 {
     int *arr; // 動態陣列起始位址 (pointer)
     int top; // 用來記錄 array 內有沒有元素，還有用來檢查有沒有overflow
+    int capacity; // 紀錄容量
 } array;
 
 void initialize(array *a, int size);
@@ -33,17 +34,20 @@ int main(void)
     int target;
 
     printf("please input ur array size: \n");
-
-    scanf("%d", &size_of_malloc);
+    if(scanf("%d", &size_of_malloc) != 1)
+    {
+        printf("invalid input\n");
+        return 1;
+    }
     initialize(&a, size_of_malloc);
 
     printf("please input ur array: \n");
 
     for(int i = 0; i < size_of_malloc; i++)
     {
-        int j; // j 是 input = array 陣列內的元素
-        scanf("%d", &j);
-        push(&a, j);
+        int value; // value 是 input = array 陣列內的元素
+        scanf("%d", &value);
+        push(&a, value);
     }
 
     for(int i = 0; i < size_of_malloc; i++)
@@ -81,10 +85,16 @@ void initialize(array *a, int size) // size_of_malloc 會變成 size 然後再�
 {
     a->arr = malloc(sizeof(int) * size);
     a->top = -1; // 表示空的 array
+    a->capacity = size;
 }
 
 void push(array *a, int value)
 {
+    if(a->top + 1 >= a->capacity)
+    {
+        printf("array overflow\n");
+        return;
+    }
     a->top++; // top = -1 開始
     a->arr[a->top] = value;
 }
