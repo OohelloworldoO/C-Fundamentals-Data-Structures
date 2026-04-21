@@ -106,7 +106,7 @@ Focus:
 | 2026/4/18 | swap、struct                                                                 |
 | 2026/4/19 | struct、malloc、stack、queue                                                 |
 | 2026/4/20 | binary search(bubble sort + stack pop + binary search)、linear search、queue |
-| 2026/4/21 | binary search(sort + stack pop + binary search) (暫定)                       |
+| 2026/4/21 | binary search(sort + stack pop + binary search)+ leetcode(two sum)           |
 
 ## Reference
 

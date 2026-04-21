@@ -108,12 +108,11 @@ void bubble_sort(array *a, int size)
 
 int binary_search(array *a, int target, int size)
 {
-    int left = 0, right = size - 1;
-
+    int left = 0, right = size -1;
     while(left <= right)
     {
-        int mid = left + (right - left) / 2;
-        if(a->arr[mid] == target)
+        int mid = left + (right - left) / 2; // 避免 overflow 
+        if(a->arr[mid] == target) 
         {
             return mid;
         }
@@ -121,10 +120,7 @@ int binary_search(array *a, int target, int size)
         {
             left = mid + 1;
         }
-        else
-        {
-            right = mid - 1;
-        }
+        else right = mid - 1;
     }
     return -1;
 }
