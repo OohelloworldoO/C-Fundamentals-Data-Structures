@@ -22,5 +22,5 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     
     // 5. 若沒找到，設定 returnSize 為 0
     *returnSize = 0;
-    return NULL;
+    return 0;
 }
