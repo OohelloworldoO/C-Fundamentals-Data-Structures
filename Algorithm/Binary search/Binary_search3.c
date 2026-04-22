@@ -34,7 +34,7 @@ int main(void)
     int target;
 
     printf("please input ur array size: \n");
-    if(scanf("%d", &size_of_malloc) != 1)
+    if(scanf("%d", &size_of_malloc) != 1) // scanf 會回傳成功讀取並賦值的數量
     {
         printf("invalid input\n");
         return 1;
