@@ -68,8 +68,10 @@ int main(void)
     {
         printf("%d ", a.arr[i]);
     }
+    printf("\n");
+
     int result = binary_search(&a, target, size_of_malloc);
-    printf("%d", result);
+    printf("ur target number is in the `%d` of the array", result);
     free(a.arr);
     return 0;
 }
