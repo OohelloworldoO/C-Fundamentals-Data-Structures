@@ -4,6 +4,8 @@ typedef struct
 {
     int *arr;
     int top;
+    int swap_times;
+    int pass_time;
 } array;
 
 void initialize(array *a, int size)
@@ -15,12 +17,16 @@ void initialize(array *a, int size)
         exit(1); // 立刻結束整個程式
     }
     a->top = -1;
+    a->swap_times = 0;
+    a->pass_time = 0;
 }
 
 void bubble_sort(array *a, int size)
 {
     for(int i = 0; i < size - 1; i++)
     {
+        a->pass_time++;
+        int swapped = 0;
         for(int j = 0; j < size - 1 - i; j++)
         {
             if(a->arr[j] > a->arr[j+1])
@@ -28,8 +34,11 @@ void bubble_sort(array *a, int size)
                 int temp = a->arr[j];
                 a->arr[j] = a->arr[j+1];
                 a->arr[j+1] = temp;
+                swapped = 1;
+                a->swap_times++;
             }
         }
+        if(swapped == 0) break; // 一整輪沒有 swap，代表「沒有任何相鄰元素是錯的」→ 整體必然已排序
     }
 }
 
@@ -60,6 +69,9 @@ int main(void)
     {
         printf("%d ", a.arr[i]);
     }
+    printf("\n");
+    printf("swap times: %d\n", a.swap_times);
+    printf("pass time: %d", a.pass_time);
     free(a.arr);
     return 0;
 }
