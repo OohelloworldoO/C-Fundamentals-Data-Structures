@@ -8,6 +8,8 @@ Bubble Sort 是一種基於比較（comparison-based）的排序演算法，
 每一輪（pass）結束後，最大的元素會被「推」到陣列的最後面，
 就像氣泡往上浮一樣（bubble up）。
 
+![Bubble sort](../../images/Bubble%20sort.png)
+
 ---
 
 ## 2. When to Use

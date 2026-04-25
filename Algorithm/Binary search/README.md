@@ -121,6 +121,7 @@ int binary_search(int arr[], int n, int target) {
 - 忘記使用 `left <= right`
 - mid 計算錯誤導致 overflow
 - 邊界更新錯誤導致 infinite loop
+- 忘記 free malloc
 
 ## 12. Insight
 
