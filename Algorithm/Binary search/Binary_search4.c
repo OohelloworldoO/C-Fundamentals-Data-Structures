@@ -1,21 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 typedef struct
 {
     int *arr;
     int top;
-    int capacity;
 } array;
 
 void initialize(array *a, int size)
 {
     a->arr = (int *)malloc(sizeof(int) * size);
     a->top = -1;
-    a->capacity = size;
 }
 
-void bubble_sort(array *a, int size)
+void sort(array *a, int size)
 {
     for(int i = 0; i < size - 1; i++)
     {
@@ -23,8 +20,7 @@ void bubble_sort(array *a, int size)
         {
             if(a->arr[j] > a->arr[j+1])
             {
-                int temp;
-                temp = a->arr[j];
+                int temp = a->arr[j];
                 a->arr[j] = a->arr[j+1];
                 a->arr[j+1] = temp;
             }
@@ -54,32 +50,26 @@ int binary_search(array *a, int target, int size)
 int main(void)
 {
     array a;
-    int target;
-    int size_of_malloc;
-    int value;
-
-    printf("please input ur array size: \n");
-    if(scanf("%d", &size_of_malloc) != 1)
-    {
-        printf("invalid input\n");
-        return 1;
-    }
+    int size_of_malloc, target;
+    printf("please input ur size of array: \n");
+    scanf("%d", &size_of_malloc);
     initialize(&a, size_of_malloc);
-    printf("please input ur value: ");
-    for(int i = 0; i < size_of_malloc; i++)
+    printf("please input ur value: \n");
+    for (int i = 0; i < size_of_malloc; i++)
     {
         scanf("%d", &a.arr[i]);
     }
-    bubble_sort(&a, size_of_malloc);
-    printf("after sort: \n");
+    printf("please input ur target number: \n");
+    scanf("%d", &target);
+
+    sort(&a, size_of_malloc);
+    printf("after sorting: \n");
     for(int i = 0; i < size_of_malloc; i++)
     {
         printf("%d ", a.arr[i]);
     }
-    printf("please input ur target number:");
-    scanf("%d", &target);
     int result = binary_search(&a, target, size_of_malloc);
     printf("%d", result);
-    free(0);
+    free(a.arr);
     return 0;
 }
