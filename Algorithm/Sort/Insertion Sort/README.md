@@ -96,3 +96,9 @@ scanf 的緩衝區陷阱:
 
 Insertion Sort 就像我們在玩撲克牌時整理手牌的過程：左手拿著已排好的牌，右手抽一張新牌，然後在左手中從右往左找位置插進去。  
 雖然它的平均複雜度是 $O(n^2)$，但在處理小規模數據時，它通常比 $O(n \log n)$ 的 Quick Sort 還要快，因為它的常數項極小且不需遞迴。
+
+## Practice Log
+
+- LeetCode 147
+- LeetCode 163
+- LeetCode 315
