@@ -108,7 +108,9 @@ Focus:
 | 2026/4/20 | binary search(bubble sort + stack pop + binary search)、linear search、queue             |
 | 2026/4/21 | binary search(sort + stack pop + binary search)+ leetcode(two sum)                       |
 | 2026/4/25 | binary search(duplicates first occurrence)、 bubble sort、insertion sort、early stopping |
-| 2026/4/26 | insertion sort 、quick sort、dijkstra algo 、leetcode(1、34、35、704)                    |
+| 2026/4/26 | insertion sort 、leetcode(1、34、35、704)                                                |
+| 2026/4/27 | quick sort、linked list、dijkstra algo 、leetcode(147) (暫定)                            |
+|           |                                                                                          |
 
 ## Reference
 
@@ -147,7 +149,7 @@ Focus:
 | 1. C Fundamentals                                                   | 2026/3/20-2026/4/19 |
 | 2. DataStructure implementation                                     |     2026/4/19-      |
 | 3. Algorithm implementation                                         |     2026/4/20-      |
-| 4. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |                     |
+| 4. [Leetcode Grind 75](https://leetcode.com/problem-list/rab78cw1/) |     2026/4/26-      |
 | 5. Jserv                                                            |                     |
 | 6. file parser                                                      |                     |
 | 7. mini shell                                                       |                     |
