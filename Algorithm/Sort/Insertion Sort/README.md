@@ -62,7 +62,14 @@ void Insertion_sort(array *a)
     int n = a->top;
     for(int i = 0; i < n; i++)
     {
-        int
+        int key = a->arr[i];
+        int j = i - 1;
+        while(j >= 0 && a->arr[j] > key)
+        {
+            a->arr[j+1] = a->arr[j];
+            j--;
+        }
+        a->arr[j+1] = key;
     }
 }
 ```
