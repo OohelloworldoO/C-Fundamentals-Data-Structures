@@ -111,7 +111,7 @@ Focus:
 | 2026/4/25 | binary search(duplicates first occurrence)、 bubble sort、insertion sort、early stopping                                                         |
 | 2026/4/26 | insertion sort 、leetcode(1、34、35、704)                                                                                                        |
 | 2026/4/27 | quick sort、linked list(需要self-referencing，了解 `typedef sturct` 跟 `struct{}` 差異、型別與函式)、dijkstra algo 、leetcode(147)、queue (暫定) |
-|           |                                                                                                                                                  |
+| 2026/4/28 | linked list                                                                                                                                      |
 
 ## Reference
 
