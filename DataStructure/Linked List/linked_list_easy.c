@@ -17,7 +17,7 @@ Node *createNode(int value)
 
 void insertAtHead(Node **head, int value)
 {
-    Node *newNode = createNode(value); // Node 這個結構 定義一個新的pointer 叫做 newNode 的記憶體位址 把 createNode(value)
+    Node *newNode = createNode(value); // Node 這個結構 定義一個新的pointer 叫做 newNode 的記憶體位址 把 createNode(value)函式建立的 新的 data(存放 value) 以及 pointer next 的記憶體位址放到newNode中 
     newNode->next = *head;
     *head = newNode;
 }
