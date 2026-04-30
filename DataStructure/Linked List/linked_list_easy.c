@@ -40,10 +40,28 @@ void printList(Node *head)
     printf("NULL\n");
 }
 
+void freeList(Node *head)
+{
+    Node *temp;
+    while(head != NULL)
+    {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
 
-
-
-
+int main(void)
+{
+    Node *head = NULL;
+    insertAtHead(&head, 5);
+    insertAtHead(&head, 10);
+    insertAtHead(&head, 20);
+    printf("Linked list content: ");
+    printList(head);
+    freeList(head);
+    return 0;
+}
 
 
 
