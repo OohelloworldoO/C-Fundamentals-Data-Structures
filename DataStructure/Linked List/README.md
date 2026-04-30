@@ -49,3 +49,4 @@ _改變 pointer 的指向_
 - forget `free`
 - 沒檢查 NULL newNode
 - 搞混 `data`、`pointer`
+- 搞混 `malloc 動態空間`
