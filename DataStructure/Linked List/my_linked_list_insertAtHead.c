@@ -11,6 +11,7 @@ typedef struct Node
 Node *createNode(int value)
 {
     Node *newNode = (Node*)malloc(sizeof(Node));
+    if(newNode == NULL) return newNode;
     newNode->data = value;
     newNode->next = NULL;
     return newNode;
@@ -34,6 +35,17 @@ void printfList(Node *head)
     printf("NULL\n");
 }
 
+void freeList(Node *head)
+{
+    Node *temp;
+    while(head != NULL)
+    {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
+
 int main(void)
 {
     Node *head = NULL;
@@ -48,5 +60,6 @@ int main(void)
         insertAtHead(&head, temp);
     }
     printfList(head);
+    freeList(head);
     return 0;
 }
