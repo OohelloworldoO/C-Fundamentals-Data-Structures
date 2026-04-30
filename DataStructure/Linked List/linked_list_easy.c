@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-typedef struct // 叫做 "Node" 的結構由一個 int data (存放value)、 Node *next(pointer 指向下一個位址)
+typedef struct Node// 叫做 "Node" 的結構由一個 int data (存放value)、 Node *next(pointer 指向下一個位址)
 {
     int data;
     struct Node *next;
