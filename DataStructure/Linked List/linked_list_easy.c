@@ -32,7 +32,7 @@ insert new node 時
 void printList(Node *head)
 {
     Node *current = head;
-    while(current = head)
+    while(current != NULL)
     {
         printf("[%d] ->", current->data);
         current = current->next;
